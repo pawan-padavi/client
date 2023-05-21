@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root > div > div:nth-child(1) > div{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:3;
+  background-Color:#128765;
+  text-Align:Center;
+  color:White;
+}
+
+#HeaderDiv > div:nth-child(1){
+  text-align: right;
+}
+#HeaderDiv > div:nth-child(1) > div > div > ul li{
+  text-align: center;
+  list-style: none;
+  padding:4px;
+  margin-top: 2px;
+  margin-left: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+#HeaderDiv > div > div > div > ul li a{
+  
+  text-decoration: none;
+  color:white;
+}
+#HeaderDiv > div:nth-child(1) > div > div > ul li:hover{
+  background-color: cadetblue;
+  color: white;
+}
+#mainDiv{
+  margin-top: 4rem;
+}
